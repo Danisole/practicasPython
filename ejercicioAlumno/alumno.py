@@ -16,23 +16,23 @@ class Alumno:
 
         nota = int(sys.argv[2])
 
-        def mostrarAlumno(self, nombre, nota):
+        # print(f"el alumno {nombre} obtuvo en su examen de python {nota}")
 
-            print(f"el alumno {nombre} obtuvo en su examen de python {nota}")
+        def mostrarNota(self, nombre, nota):
 
-            # if 10 >= nota >= 8:
+            if 10 >= nota >= 8:
 
-            #     print(f" el alumno {nombre} obtuvo {nota}: alumno destacado")
+                print(f" el alumno {nombre} obtuvo {nota}: alumno destacado")
 
-            # elif 6 <= nota < 8:
+            elif 6 <= nota < 8:
 
-            #     print(f" el alumno {nombre} obtuvo {nota}: alumno aprobado")
+                print(f" el alumno {nombre} obtuvo {nota}: alumno aprobado")
 
-            # elif nota < 6:
+            elif nota < 6:
 
-            #     print(f" el alumno {nombre} obtuvo {nota}: alumno desaprobado")   
+                print(f" el alumno {nombre} obtuvo {nota}: alumno desaprobado")   
 
-            # else:
-            #     print("la norta ingresada no es valida")
+            else:
+                    print("la norta ingresada no es valida")
     else:
         print("no ingresaste la cantidad correcta de parametros")
