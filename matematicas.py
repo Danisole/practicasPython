@@ -1,6 +1,10 @@
 import sys
 from funciones_matematicas import sumar, restar, multiplicar, dividir, potencia, py
 
+# otras opciones para importar seria agregar un pseudonimo 
+# import funciones_matematicas as fm
+# tb 
+
 if len(sys.argv)==3:
     primernum = int(sys.argv[1])
 

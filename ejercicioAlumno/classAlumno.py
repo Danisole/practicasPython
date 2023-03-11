@@ -1,10 +1,5 @@
-import sys
+from alumno import Alumno
 
-class Alumno:
-    
-    def __init__(self, nombre, nota):
-        self.nombre = nombre
-        self.nota = nota
+alumno1 = Alumno("emilia")
 
-    def __str__(self):
-        return(f" Alumno {self.nombre} {self.nota}")
+alumno1.mostrarNota(6)

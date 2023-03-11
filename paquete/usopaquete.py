@@ -1,0 +1,1 @@
+from paquete.clasePersona import Persona

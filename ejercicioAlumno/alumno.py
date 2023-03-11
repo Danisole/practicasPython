@@ -1,38 +1,26 @@
-import sys
-
 class Alumno:
     
-    def __init__(self, nombre, nota):
+    def __init__(self, nombre):
         self.nombre = nombre
-        self.nota = nota
+        
 
     def __str__(self):
-        return(f"Alumno {self.nombre} {self.nota}")
+        return(f"Alumno {self.nombre}")
 
 
-    if len(sys.argv)==3:
+    def mostrarNota(self, nota):
 
-        nombre = sys.argv[1]
+        if 10 >= nota >= 8:
 
-        nota = int(sys.argv[2])
+            print(f" el alumno {self.nombre} obtuvo {nota}: alumno destacado")
 
-        # print(f"el alumno {nombre} obtuvo en su examen de python {nota}")
+        elif 6 <= nota < 8:
 
-        def mostrarNota(self, nombre, nota):
+            print(f" el alumno {self.nombre} obtuvo {nota}: alumno aprobado")
 
-            if 10 >= nota >= 8:
+        elif nota < 6:
 
-                print(f" el alumno {nombre} obtuvo {nota}: alumno destacado")
+            print(f" el alumno {self.nombre} obtuvo {nota}: alumno desaprobado")   
 
-            elif 6 <= nota < 8:
-
-                print(f" el alumno {nombre} obtuvo {nota}: alumno aprobado")
-
-            elif nota < 6:
-
-                print(f" el alumno {nombre} obtuvo {nota}: alumno desaprobado")   
-
-            else:
-                    print("la norta ingresada no es valida")
-    else:
-        print("no ingresaste la cantidad correcta de parametros")
+        else:
+            print("la norta ingresada no es valida")

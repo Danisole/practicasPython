@@ -1,0 +1,10 @@
+README.md
+setup.py
+paquete/__init__.py
+paquete/clasePersona.py
+paquete/moduloPaquete.py
+paquete/usopaquete.py
+paquete_51325.egg-info/PKG-INFO
+paquete_51325.egg-info/SOURCES.txt
+paquete_51325.egg-info/dependency_links.txt
+paquete_51325.egg-info/top_level.txt
